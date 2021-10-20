@@ -42,7 +42,7 @@ docs/zh/guide/synology
 
 # 其他信息
 
-下面信息不知道干嘛
+Sample Ref: https://www.ddnsto.com/?utm_campaign=test-event&utm_medium=cpc&utm_source=winkidney
 
 ## 代码参考于下面链接 
     https://vuepress.vuejs.org/zh/

@@ -25,6 +25,9 @@ module.exports = {
             'meta', { name: "keywords", content: "DDNSTO,内网穿透,设备原理,远程下载,远程开机,远程桌面,远程文件管理" }
         ],
         [
+            'script', { src: "/script/google-analytics.js" }
+        ],
+        [
             'script', { src: "/script/analytics.js" }
         ]
     ],
@@ -117,12 +120,6 @@ module.exports = {
         // searchMaxSuggestions: 10
     },
     plugins: [
-        [
-          '@vuepress/plugin-google-analytics',
-          {
-            id: 'G-M9QPH96XV9',     // please contact winkidney to get the id
-          },
-        ],
         ['@vuepress/blog',
             {
                 directories: [
