@@ -117,6 +117,12 @@ module.exports = {
         // searchMaxSuggestions: 10
     },
     plugins: [
+        [
+          '@vuepress/plugin-google-analytics',
+          {
+            id: 'G-M9QPH96XV9',     // please contact winkidney to get the id
+          },
+        ],
         ['@vuepress/blog',
             {
                 directories: [
